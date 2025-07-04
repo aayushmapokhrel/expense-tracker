@@ -92,29 +92,5 @@ Welcome to the **Expense Tracker API** — a Django-powered RESTful API designed
   "created_at": "2025-01-01T10:00:00Z",
   "updated_at": "2025-01-01T10:00:00Z"
 }
-### 🔹 Paginated List
-{
-  "count": 25,
-  "next": "http://api/expenses/?page=2",
-  "previous": null,
-  "results": [
-    {
-      "id": 1,
-      "title": "shoes Shopping",
-      "amount": 2200.00,
-      "transaction_type": "debit",
-      "total": 2200.00,
-      "created_at": "2025-01-01T10:00:00Z"
-    }
-  ]
-}
-🛠 Technologies Used
-Backend: Django, Django REST Framework
-
-Auth: JWT (djangorestframework-simplejwt)
-
-Database: SQLite (development)
-
-Language: Python 3.8+
 
 
